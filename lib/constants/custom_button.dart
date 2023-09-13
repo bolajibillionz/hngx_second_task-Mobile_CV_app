@@ -8,13 +8,10 @@ class BuildCustomButton extends StatelessWidget {
     super.key,
     required this.onPressed,
     required this.buttonText,
-   
   });
 
   final void Function()? onPressed;
   final String buttonText;
- 
- 
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +28,7 @@ class BuildCustomButton extends StatelessWidget {
                 side: BorderSide(color: AppColor.primaryColor))),
         child: buildCustomText(
             inputText: buttonText,
-            fontSize: 14,
+            fontSize: 18,
             weight: FontWeight.bold,
             colorName: AppColor.generalWhite),
       ),

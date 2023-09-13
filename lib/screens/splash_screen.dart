@@ -24,7 +24,15 @@ class _SplashScreenState extends State<SplashScreen> {
       Future.delayed(const Duration(seconds: 2), () {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const HomePage()),
+          MaterialPageRoute(
+              builder: (context) => HomePage(
+                    fullName: AppTexts.fullName,
+                    slackName: AppTexts.slackName,
+                    gitHubHandle: AppTexts.gitHubHandle,
+                    phoneNumber: AppTexts.phoneNumber,
+                    email: AppTexts.email,
+                    summary: AppTexts.brief,
+                  )),
         );
       });
     }
