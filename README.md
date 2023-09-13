@@ -4,14 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+I utilized the concept of passing argument and parameters from one page to the other, also, i used initstate to set the values of the arguments to the text property of the controller of the TextFormField.
+I used MediaQuery for responsiveness, also, i used push replacement Navigator to close the stack of screens.
 
-A few resources to get you started if this is your first Flutter project:
+Below is my appetize.io link
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://appetize.io/embed/6v3e4fdljw62znato6p5h7tl4e
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 # hngx_second_task-Mobile_CV_app
